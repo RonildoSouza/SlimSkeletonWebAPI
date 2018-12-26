@@ -1,0 +1,29 @@
+{
+    "name": "ronildosouza/slim-skeleton-web-api",
+    "description": "A Slim Framework skeleton application for rapid development Web API",
+    "keywords": ["webapi", "microframework", "rest", "router", "psr7"],
+    "homepage": "http://github.com/RonildoSouza/SlimSkeletonWebAPI",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronildo Souza",
+            "homepage": "http://github.com/RonildoSouza"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.1",
+        "doctrine/orm": "^2.6",
+        "monolog/monolog": "^1.17",
+        "mark-gerarts/auto-mapper-plus": "^1.3",
+        "zircote/swagger-php": "^3.0"
+    },
+    "autoload": {        
+        "psr-4": {
+            "SlimSkeletonWebAPI\\DAO\\": "./src/dao/",
+            "SlimSkeletonWebAPI\\Controllers\\": "./src/controllers/",
+            "SlimSkeletonWebAPI\\Dtos\\": "./src/models/dtos/",
+            "SlimSkeletonWebAPI\\Entities\\": "./src/models/entities/",
+            "SlimSkeletonWebAPI\\Entities\\Repositories\\": "./src/models/entities/repositories/"
+        }
+    }
+}
