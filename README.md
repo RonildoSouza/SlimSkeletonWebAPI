@@ -1,6 +1,6 @@
 # Slim Skeleton Web API
 
-This project is a skeleton for build your web API using:
+This project is a skeleton for build your web API with PHP using:
 
 * [Slim](https://www.slimframework.com/)
 * [Doctrine/ORM](https://www.doctrine-project.org/)
